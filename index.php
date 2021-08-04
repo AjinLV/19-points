@@ -23,7 +23,7 @@
 </head>
 <body>
 <div class="container">
-  <div class="row justify-content-evenly">
+  <div class="row justify-content-between">
     <div class="col-1">
     <img src="assets/img/BlackLogo 3.jpg">
     </div>
@@ -52,7 +52,7 @@
       LV 
       </div>
   </div>
-
+</div>
 
   <div class="row justify-content-center">
     <div class="col-1">
@@ -82,22 +82,36 @@
         </div>
     </div>
 
+<div class="container">
+  <div class="flex-container ">
+        <div class="flex-item align-self-start">
+          <img src="assets/img/Zanda_1.jpg" alt="">
+        </div>
+        <div class="flex-item">
+          <img src="assets/img/Sibilla_4.jpg" alt="">
+        </div>
+        
+        <div class="flex-column">
+          <img src="assets/img/Brinuma_meita-15.jpg" alt="">
+          <img src="assets/img/Alina_1.jpg" alt="">
+        </div>
+        <div class="flex-item">
+          <img src="assets/img/Anda_2.jpg" alt="">
+        </div>
+  </div>
+</div>
 
-<div class="flex-container ">
-  <div class="flex-item">
-    <img src="assets/img/Zanda_1.jpg" alt="">
-  </div>
-  <div class="flex-item">
-    <img src="assets/img/Sibilla_4.jpg" alt="">
-  </div>
-  <div class="flex-item flex-column">
-  <img src="assets/img/Brinuma_meita-15.jpg" alt="">
-  <img src="assets/img/Alina_1.jpg" alt="">
-</div>
-  <div class="flex-item">
-    <img src="assets/img/Anda_2.jpg" alt="">
-  </div>
-</div>
+    <div class="row">
+      <div class="col-4"></div>
+      <div class="col-4"></div>
+      <div class="col-4"></div>
+    </div>
+    <div class="row">
+      <div class="col-4"></div>
+      <div class="col-4"></div>
+      <div class="col-4"></div>
+    </div>
+
         <div class="row justify-content-evenly  help-text">
             <div class="col-1 ">
             
@@ -120,13 +134,13 @@
             
             </div>
             <div class="col-3 ">
-            <button type="button" class="help-button">Sapņotājiem</button>
+            <button type="button" class="help-button" id="help-sapnotajiem">Sapņotājiem</button>
             </div>
             <div class="col-3 offset-md-2">
             
             </div>
             <div class="col-3 ">
-            <button type="button" class="help-button">Uzņēmējiem</button>
+            <button type="button" class="help-button" id="help-uznemejiem">Uzņēmējiem</button>
             </div>
             <div class="col-1 ">
             
@@ -134,35 +148,115 @@
         </div>
 
 
-  <div class="row justify-content-end">
-    <div class="footer">
-    <div class="row justify-content-evenly atbalsts">
+<div class="container ">
+    <div class="row ">
       <div class="col-4 "></div>
-      <div class="col-4 ">ATBALSTĪTĀJI</div>
       <div class="col-4 "></div>
+      <div class="col-4 "></div>
+    </div>
+    <div class="row">
+      <div class="col-4 "></div>
+      <div class="col-4 sazinies">SAZINĀTIES AR MUMS</div>
+      <div class="col-4 "></div>
+    </div>
+    <div class="row">
+      <div class="col-4 "></div>
+      <div class="col-4 "></div>
+      <div class="col-4 "></div>
+    </div>
+    <div class="row">
+      <div class="col-4 "></div>
+      <div class="col-2 "><input type="username" class="form-control sazinies-box" id="usr" placeholder="Vārds, Uzvārds*" name="namesurname"></div>
+      <div class="col-2 "><input type="password" class="form-control sazinies-box" id="e-mail" placeholder="E-pasts*" name="email"></div>
+      <div class="col-4 "></div>
+    </div>
+    <div class="row justify-content-between">
+      <div class="col-4 "></div>
+      <div class="col-4 "><input type="telefons" class="form-control sazinies-box-telefons" id="telnr" placeholder="Telefons*" name="telefons"></div> 
+      <div class="col-3 "></div>
+    </div>
+    <div class="row">
+      <div class="col-4 "></div> 
+      <div class="col-4 "><textarea class="form-control sazinies-box-telefons" rows="5" id="comment" placeholder="Jautājums, vai komentārs*"></textarea></div> 
+      <div class="col-4 "></div> 
+    </div>
+    <div class="row">
+      <div class="col-4 "></div> 
+      <div class="col-4 obligats-lauks">* Obligāti aizpildāmie lauki</div> 
+      <div class="col-4 "></div> 
+    </div>
+    <div class="row">
+      <div class="col-4 "></div> 
+      <div class="col-4 "></div> 
+      <div class="col-4 "></div> 
+    </div>
+    <div class="row">
+      <div class="col-4"></div> 
+      <div class="col-4 "><input type="checkbox" class="form-check-input checkbox" id="dataaccept"><label class="form-check-label checkbox" for="data">Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks saglabāti līdz brīdim, kamēr tas būs nepieciešams.</label></div> 
+      <div class="col-4 "></div> 
+    </div>
+    <div class="row">
+      <div class="col-5"></div> 
+      <div class="col-2 "><button type="button" class="sazinies-submit" id="sazinies-submit">Sūtīt</button></div> 
+      <div class="col-5 "></div> 
+    </div>
+    <div class="row">
+      <div class="col-4 "></div> 
+      <div class="col-4 "></div> 
+      <div class="col-4 "></div> 
+    </div>
+</div> 
 
-      <div class="flex-container-atbalsts ">
-      <div class="flex-item-atbalsts ">
-        <img src="assets/img/Teikums.png" alt="">
+
+
+
+
+<div class="row justify-content-evenly">
+  <div class="footer">
+      <div class="row atbalsts">
+        <div class="col-4 "></div>
+        <div class="col-4 "></div>
+        <div class="col-4 "></div>
       </div>
-      <div class="flex-item-atbalsts ">
-        <img src="assets/img/sem.jpg" alt="">
+      <div class="row">
+        <div class="col-4 "></div>
+        <div class="col-4 ">ATBALSTĪTĀJI</div>
+        <div class="col-4 "></div>
       </div>
-      <div class="flex-item-atbalsts ">
-        <img src="assets/img/Citybee.png" alt="">
+      <div class="row">
+        <div class="col-4 "></div>
+        <div class="col-4 "></div>
+        <div class="col-4 "></div>
       </div>
-      <div class="flex-item-atbalsts ">
-        <img src="assets/img/Linearis.png" alt="">
-      </div>
-      <div class="row justify-content-evenly">
-      <div class="col-4 "></div>
-      <div class="col-4 "></div>
-      <div class="col-4 "></div>
+        <div class="flex-container-atbalsts ">
+          <div class="flex-item-atbalsts "><img src="assets/img/Teikums.png" alt=""></div>
+          <div class="flex-item-atbalsts "><img src="assets/img/sem.png" alt=""></div>
+          <div class="flex-item-atbalsts "><img src="assets/img/Citybee.png" alt=""></div>
+          <div class="flex-item-atbalsts "><img src="assets/img/Linearis.png" alt=""></div>
+        <div class="row justify-content-evenly">
+        <div class="col-4 "></div>
+        <div class="col-4 "></div>
+        <div class="col-4 "></div>
+        </div>
+    </div>
+  </div>
 </div>
 
+<div class="container footer-two">
+  <div class="row align-items-center copyright text">
+    <div class=”col-6”>
+    <div class=”card card-block”>
+    <img src="assets/img/GoldenV2Logo 3.png" alt="">
+      </div>
     </div>
-
+    <div class=”col-6”>
+      <div class=”card card-inverse card-danger”>
+      © SparkleHeart 2020. Visas tiesības aizsargātas.
+      </div>
+   </div>
+</div>
 	<!-- JavaScript -->
 	<script src="js/theme.js"></script>
 </body>
 </html>
+
