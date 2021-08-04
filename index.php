@@ -98,34 +98,37 @@
     <img src="assets/img/Anda_2.jpg" alt="">
   </div>
 </div>
-        <div class="row justify-content-between align-items-stretch help-text">
-            <div class="col-2 offset-md-2 mid-text align-self-start order-md-2">
+        <div class="row justify-content-evenly  help-text">
+            <div class="col-1 ">
             
             </div>
-            <div class="col-4 offset-md-3 help-text align-self-start order-md-2">
+            <div class="col-4 ">
             VĒLIES PIEPILDĪT SAVU SAPNI?
             </div>
-            <div class="col-2 offset-md-2 mid-text align-self-start order-md-2">
+            <div class="col-2 order-md-2">
             
             </div>
-            <div class="col-4 offset-md-3 help-text align-self-end order-md-2">
+            <div class="col-4 ">
             VĒLIES PALĪDZĒT KĀDAM PIEPILDĪT SAPNI?
             </div>
-            <div class="col-2 offset-md-2 help-text align-self-end order-md-2">
+            <div class="col-1 ">
             
             </div>
         </div>
-        <div class="row justify-content-between align-items-stretch help-text">
-            <div class="col-2 offset-md-2 help-button align-self-start order-md-2">
+        <div class="row justify-content-evenly help-text">
+            <div class="col-2 ">
             
             </div>
-            <div class="col-4 offset-md-2 help-button align-self-start order-md-2">
-            Sapņotājiem
+            <div class="col-3 ">
+            <button type="button" class="help-button">Sapņotājiem</button>
             </div>
-            <div class="col-4 offset-md-2 help-button align-self-start order-md-2">
-            Uzņēmējiem
+            <div class="col-3 offset-md-2">
+            
             </div>
-            <div class="col-2 offset-md-2 help-button align-self-start order-md-2">
+            <div class="col-3 ">
+            <button type="button" class="help-button">Uzņēmējiem</button>
+            </div>
+            <div class="col-1 ">
             
             </div>
         </div>
@@ -133,7 +136,26 @@
 
   <div class="row justify-content-end">
     <div class="footer">
-      <p>Temporary footer</p>
+    <div class="row justify-content-evenly atbalsts">
+      <div class="col-4 "></div>
+      <div class="col-4 ">Atbalstītāji</div>
+      <div class="col-4 "></div>
+
+      <div class="flex-container-atbalsts ">
+      <div class="flex-item-atbalsts ">
+        <img src="assets/img/Teikums.png" alt="">
+      </div>
+      <div class="flex-item-atbalsts ">
+        <img src="assets/img/sem.jpg" alt="">
+      </div>
+      <div class="flex-item-atbalsts ">
+        <img src="assets/img/Citybee.png" alt="">
+      </div>
+      <div class="flex-item-atbalsts ">
+        <img src="assets/img/Linearis.png" alt="">
+      </div>
+</div>
+
     </div>
 
 	<!-- JavaScript -->

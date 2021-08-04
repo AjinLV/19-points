@@ -13,8 +13,18 @@
   padding: 15px;
 }
 
-.flex-container {
+.flex-container{
   background: rgb(255, 255, 255);
+  flex-direction:row;
+  display: flex;
+
+  align-items: center;
+  width: 100%;
+  flex-flow: row nowrap;
+}
+
+.flex-container-atbalsts {
+  background: #FFCB66;
   flex-direction:row;
   display: flex;
 
@@ -25,6 +35,12 @@
 
 .flex-item {
   padding: 0px;
+  width: 33.33%;
+  order: 1;  
+}
+
+.flex-item-atbalsts {
+  padding: 2px;
   width: 33.33%;
   order: 1;  
 }
@@ -50,14 +66,24 @@ font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
-line-height: 22px;
 display: flex;
-align-items: center;
+border: none;
+padding: 7px 20px;
 text-align: center;
-
-color: #d66d0a;
+cursor: pointer;
+color: #ffffff;
+background-color: #d86a11;
 }
-
+.atbalsts{
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  
+  color: #2F4858;
+}
 .help-text{
 font-family: Oswald;
 font-style: normal;
